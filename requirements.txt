@@ -1,0 +1,32 @@
+# Data manipulation and analysis
+pandas==2.3.0
+numpy==2.3.1
+
+# Machine learning
+scikit-learn==1.5.1
+joblib==1.4.2
+scipy==1.16.0
+xgboost==3.0.2
+
+# Data visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Database connectivity
+SQLAlchemy==2.0.41
+psycopg2-binary==2.9.10
+
+# Environment management
+python-dotenv==1.0.1
+
+# Django (if needed for web interface)
+Django==5.1.6
+djangorestframework==3.15.2
+django-cors-headers==4.7.0
+
+# Additional utilities
+python-dateutil==2.9.0.post0
+
+# Apache Airflow (commented out - not compatible with Python 3.12)
+# apache-airflow==2.8.2
+# apache-airflow-providers-postgres==5.10.2

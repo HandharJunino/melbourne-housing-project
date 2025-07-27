@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Environment variables
+.env
+.venv/
+venv/
+
+# Data files (too large for git)
+*.csv
+data/raw/
+data/cleaned/
+
+# Machine Learning models
+*.pkl
+*.joblib
+models/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter Notebooks - ignore all but keep important ones
+*.ipynb
+!notebooks/ml_model.ipynb
+!notebooks/ml_hyperparameters.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+logs/
